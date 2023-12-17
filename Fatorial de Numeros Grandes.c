@@ -16,10 +16,8 @@
 #define MAX_SIZE 36000
 void show_result(int *result, int size);
 int result_x_current_and_resize(int *result, int size, int current);
-int main()
+int factorial(int n)
 {
-    int n;
-    scanf("%d", &n);
     if (n < 2)
     { // 0 and 1
         printf("1\n");
